@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 46: CSS FLEX - Products</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: darkgreen;
+        }
+        .flex-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            padding: 10px;
+            gap: 10px;
+        }
+        .grid-item {
+            background-color: teal;
+            border: 2px solid darkgreen;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+        .header {
+            font-weight: bold;
+        }
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+<h1>Activity 46: Research CSS Grid - Products</h1>
+<div class="flex-container">
+  <div class="grid-item header">Product ID</div>
+  <div class="grid-item header">Product Name</div>
+  <div class="grid-item header">Category</div>
+  <div class="grid-item header">Price</div>
+  <div class="grid-item header">Stock</div>
+  <div class="grid-item">101</div>
+  <div class="grid-item">Samsung Galaxy S21</div>
+  <div class="grid-item">Electronics</div>
+  <div class="grid-item">₱35,000.00</div>
+  <div class="grid-item">50</div>
+  
+  <div class="grid-item">102</div>
+  <div class="grid-item">Wireless Mouse</div>
+  <div class="grid-item">Electronics</div>
+  <div class="grid-item">₱500.00</div>
+  <div class="grid-item">200</div>
+  
+  <div class="grid-item">103</div>
+  <div class="grid-item">Running Shoes</div>
+  <div class="grid-item">Apparel</div>
+  <div class="grid-item">₱2,500.00</div>
+  <div class="grid-item">80</div>
+  
+  <div class="grid-item">104</div>
+  <div class="grid-item">Leather Jacket</div>
+  <div class="grid-item">Apparel</div>
+  <div class="grid-item">₱5,000.00</div>
+  <div class="grid-item">40</div>
+</div>
+<a href="https://www.amazon.com/s?k=products" target="_blank">References</a>
+</body>
+</html>
